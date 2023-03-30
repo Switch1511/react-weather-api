@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { getApi } from './services/api';
 
 function App() {
+  getApi();
+
   return (
     <div className="App">
       <header className="App-header">
